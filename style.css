@@ -1,14 +1,28 @@
 .card{
     display: flex;
-    border: 10px;
-    justify-content: center;
-    background-color: rgb(216, 229, 255)
+    border: 1px solid black;
+    justify-content: center
 }
 .title a{
     display: flex;
     width: 100%;
     height: 75px;
-    justify-content: flex-start;
     align-items: center;
+    justify-content: flex-start;
     text-decoration: none;
+    padding: 10px;
+    margin: 40px;
+}
+.text{
+    display: flex;
+    align-content: space-between;
+    padding: 40px;
+    margin: 20px;
+    flex-direction: column;
+}
+.photo{
+    display: flex;
+    border-radius: 20px;
+    width: 150px;
+    height: 100px;
 }
